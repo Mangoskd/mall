@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: mall-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.27.151.48:8848

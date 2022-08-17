@@ -14,5 +14,10 @@
         <module>mall-coupon</module>
         <module>mall-product</module>
         <module>mall-member</module>
+        <module>mall-common</module>
+        <module>renren-generator</module>
+        <module>renren-fast</module>
+        <module>mall-search</module>
     </modules>
 </project>
+

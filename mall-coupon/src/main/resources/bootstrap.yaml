@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mall-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 120.27.151.48:8848
+        extension-configs:
+          - dataId: datasource.yaml
+            group: dev
+            refresh: true
+          - dataId: mybatis.yaml
+            group: dev
+            refresh: true
+          - dataId: other.yaml
+            group: dev
+            refresh: true
